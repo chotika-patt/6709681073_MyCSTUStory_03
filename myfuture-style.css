@@ -1,0 +1,146 @@
+body{
+    background-image: url(resources/background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.nav_bar{
+    position: absolute;
+    top: 2%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+ul li{
+    align-items: center;
+    display: inline;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif; 
+    font-size: 4vh;
+    font-weight: 800;
+}
+
+a{
+    display: inline-block;
+    width: 25%;
+    padding: auto;
+    margin: 40px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+hr{
+    height: 80px;
+    width: 25%;
+    margin: -95px 0;
+    background: linear-gradient(to right,#edf2ac7b 0%,#f7a4c36b 100%);
+    border: none;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+    margin-left: 25%;
+}
+
+.one:hover ~ hr{
+    margin-left: 0%;
+}
+.three:hover ~ hr{
+    margin-left: 50%;
+}
+
+/*
+---------------------------------------------------------
+*/
+
+.myfuture{
+    padding-top: 10%;
+}
+
+.myfuture h1{
+    float: left; 
+    font-family: "Pixelify Sans", sans-serif; 
+    font-size: 5vw;
+}
+
+.myfuture p{
+    font-family: "Outfit", sans-serif;
+    clear: both;
+    font-size: 2.5vw;
+}
+
+#cat1{
+    width: 10%;
+    float: left;
+    padding-top: 4%;
+    padding-right: 2%;
+}
+
+#cat2{
+    width: 10%;
+    float: left;
+    padding-top: 3%;
+}
+
+/*
+------------------------------------------------------
+*/
+
+.myfuture .first p{
+    background-color: white;
+    border-radius: 50px;
+    padding: 4% 8%;
+    padding-left: 11%;
+    margin-left: 2%;
+    margin-right: 5%;
+    -webkit-box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.112); 
+    box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.24);
+}
+
+.star1 {
+    width: 10%;
+    height: auto;
+    margin-left: -54%;
+    margin-top: 18%;
+    position: absolute;
+}
+
+.myfuture .second p{
+    background-color: white;
+    border-radius: 50px;
+    padding: 4% 8%;
+    padding-left: 11%;
+    margin-left: 2%;
+    margin-right: 5%;
+    -webkit-box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.112); 
+    box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.24);
+}
+
+.star2 {
+    width: 10%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.myfuture .third p{
+    background-color: white;
+    border-radius: 50px;
+    padding: 4% 8%;
+    padding-left: 11%;
+    margin-left: 2%;
+    margin-right: 5%;
+    -webkit-box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.112); 
+    box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.24);
+}
+
+.star3 {
+    width: 10%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 2%;
+    position: absolute;
+}

@@ -1,0 +1,295 @@
+
+body{
+    background-color: #faf7f9;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.heading_myself{
+    background-image: url(resources/picture.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 70%;
+}
+.nav_bar{
+    position: absolute;
+    top: 2%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+ul li{
+    align-items: center;
+    display: inline;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif; 
+    font-size: 4vh;
+    font-weight: 800;
+}
+
+a{
+    display: inline-block;
+    width: 25%;
+    padding: auto;
+    margin: 40px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+hr{
+    height: 80px;
+    width: 25%;
+    margin: -95px 0;
+    background: linear-gradient(to right,#edf2ac7b 0%,#f7a4c36b 100%);
+    border: none;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+}
+
+.two:hover ~ hr{
+    margin-left: 25%;
+}
+.three:hover ~ hr{
+    margin-left: 50%;
+}
+
+#heading1{
+    background-color: #faf7f9;
+    font-family: "Pixelify Sans", sans-serif;    
+    margin: 5%;   
+    position: absolute; 
+    font-size: 4.5vw;
+    font-weight: bold;
+    overflow: hidden; 
+    border-right: .15em solid rgb(228, 47, 77);
+    white-space: nowrap; 
+    letter-spacing: .05em; 
+    animation: 
+    typing 3s steps(25, end) forwards alternate 5
+    ,blink .8s infinite;    
+}
+
+#paragraph{
+    font-family: "Outfit", sans-serif;
+    padding-top: 18%;
+    padding-left: 5%;
+    font-size: 2.3vw;
+    position: absolute;
+}
+    
+@keyframes typing {
+    from{width: 0%;}
+    to{width:35%;}
+}
+    
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: rgb(228, 47, 77); }
+}
+    
+.wallpaper{
+    background-image: url(resources/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 96%;
+    height: auto;
+    margin: 2%;
+    border-radius: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#imgp1{
+    background-color: #faf7f9;
+    margin: 0%;
+    padding: 2%;
+    width: 20%;
+    height: auto;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+#imgp2{
+    background-color: #faf7f9;
+    margin-left: 1%;
+    padding: 2%;
+    width: 20%;
+    height: auto;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+/*
+------------------------------------------------
+*/
+
+
+#middle{
+    background-color: #faf7f9;
+    margin: 5% 45%;
+    padding: 10%;
+    width:37%;
+    height: 15vw;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+#MyVideo{
+    font-family: "Pixelify Sans", sans-serif;   
+    position: absolute;
+    font-size: 3.5vw;
+    margin-top: 7%;
+    margin-left: 55%;
+}
+
+.myvdo{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+#left1{
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #fffbbf;
+    position: absolute;
+    font-size: 3.5vw;
+    border-radius: 40%;
+    padding: 2% 3%;
+    margin-top: 4%;
+    margin-left: 3%;
+    -webkit-box-shadow: 8px 8px 19px -1px rgba(0,0,0,0.44); 
+box-shadow: 8px 8px 19px -1px rgba(0,0,0,0.44);
+}
+
+#left2{
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #ffe2bf;
+    position: absolute;
+    font-size: 3.5vw;
+    border-radius: 40%;
+    padding: 2% 3%;
+    margin-top: 4%;
+    margin-left: 20%;
+    -webkit-box-shadow: 8px 8px 19px -1px rgba(0,0,0,0.44); 
+box-shadow: 8px 8px 19px -1px rgba(0,0,0,0.44);
+}
+
+#favsong h1{
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    position: absolute;
+    font-size: 6vw;
+    margin-top: 17%;
+    margin-left: 9%;
+}
+
+#KingSong{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 7%;
+}
+
+#favsong p{
+    font-family: "Outfit", sans-serif;
+    color: rgb(86, 84, 84);
+    position: absolute;
+    font-size: 2vw;
+    margin-top: 24%;
+    margin-left: 8%;
+}
+
+/*
+--------------------------------------------------------------------
+*/
+
+.myhobby h1,.mypet h1{
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 4vw;
+    padding-top: 0;
+    margin-top: 2%;
+}
+
+.myhobby p{
+    font-family: "Outfit", sans-serif;
+    font-size: 2vw;
+    padding-left: 10%;
+}
+
+.mypet p{
+    padding-left: 2%;
+    font-family: "Outfit", sans-serif;
+    font-size: 2vw;
+}
+
+.myhobby,.mypet{
+    border: 0px;
+    border-radius: 20px;
+    -webkit-box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.21); 
+box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.151);
+}
+
+.myhobby{
+    float: left;
+    background-color: #fffbbf;
+    margin-left: 5%;
+    width: 40%;
+}
+
+#twisty{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    padding-right: 2%;
+}
+
+.mypet{
+    float: right;
+    background-color: #ffe2bf;
+    margin-right: 5%;
+    width: 45%;
+}
+
+/*
+-----------------------------------------------------
+*/
+
+.social-media {
+    float: left; 
+}
+
+.social-media a {
+    display: inline-block; 
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.social-media img.instagram {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 40%; 
+    height: auto; 
+    padding-left: 45%;
+}
+
+.social-media img.facebook{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 40%;
+    height: auto; 
+    padding-left: 3%;
+}
+
+.social-media img:hover{
+    opacity: 0.3;
+}
