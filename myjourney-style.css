@@ -2,9 +2,8 @@ body{
     background-image: url(resources/background.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
+    background-attachment: fixed; 
+    overflow-x: hidden; 
 }
 
 .nav_bar{
@@ -114,7 +113,7 @@ body{
 .myjourney p{
     font-family: "Kanit", sans-serif;
     margin-top: 0;
-    font-size: 2vw;
+    font-size: 3vw;
     margin-left: 17%;
     margin-right: 5%;
 }
@@ -147,3 +146,4 @@ body{
     float: left;
     width: 15%;
 }
+   
