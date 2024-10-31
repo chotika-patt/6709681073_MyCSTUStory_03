@@ -11,50 +11,94 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
-    padding-bottom: 70%;
+    padding-bottom: 60%;
 }
+
 .nav_bar{
-    position: absolute;
-    top: 2%;
-    left: 60%;
-    transform: translate(-50%,-50%);
-    width: 100%;
-}
-
-ul li{
     align-items: center;
-    display: inline;
+}
+
+.heading_myself .nav_bar ul{
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: center;
+    max-width: 800px;
+}
+
+@media (min-width: 768px) {
+    .heading_myself .nav_bar ul {
+        justify-content: center; 
+        gap: 60px;
+    }
+}
+
+.heading_myself .nav_bar li{
+    flex: none;
+    margin-right: auto;
+}
+
+
+.heading_myself .nav_bar a{
     text-align: center;
-    font-family: "Pixelify Sans", sans-serif; 
-    font-size: 4vh;
-    font-weight: 800;
-}
-
-a{
+    font-size: 5vw;
+    font-family: "Pixelify Sans", sans-serif;    
+    color: black;
     display: inline-block;
-    width: 25%;
-    padding: auto;
-    margin: 40px 0;
-    text-decoration: none;
-    color: #333;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-hr{
-    height: 80px;
-    width: 25%;
-    margin: -95px 0;
-    background: linear-gradient(to right,#edf2ac7b 0%,#f7a4c36b 100%);
-    border: none;
-    border-radius: 50px;
-    transition: .5s ease-in-out;
+.one{
+    border-radius: 10%;
+    padding: 2%;
+    margin: 2%;
+    background: rgb(238,10,176);
+    background: linear-gradient(90deg, rgba(238,10,176,0.2692307692307693) 0%, rgba(199,54,10,0.20655270655270652) 35%, rgba(221,130,6,0.18233618233618232) 61%, rgba(255,243,0,0.28343837535014005) 100%);
 }
 
-.two:hover ~ hr{
-    margin-left: 25%;
+.two , .three{
+    padding: 2%;
+    margin: 2%;
 }
-.three:hover ~ hr{
-    margin-left: 50%;
+
+.heading_myself .nav_bar a:hover{
+    -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
+
+
+@-webkit-keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  
+/*
+-----------------------------------------------------
+*/
 
 #heading1{
     background-color: #faf7f9;
@@ -276,7 +320,7 @@ box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.151);
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
-    width: 40%; 
+    width: 20%; 
     height: auto; 
     padding-left: 45%;
 }
@@ -285,7 +329,7 @@ box-shadow: 8px 8px 19px -1px rgba(0, 0, 0, 0.151);
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
-    width: 40%;
+    width: 20%;
     height: auto; 
     padding-left: 3%;
 }
